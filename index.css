@@ -1,0 +1,92 @@
+body{
+    color:red;
+    font-family: Slack-Circular-Pro,"Helvetica Neue",Helvetica,"Segoe UI",Tahoma,Arial,sans-serif;
+}
+#title{
+ color:aliceblue;
+ background-color: #541554;
+ padding: 50px;
+ /* padding-top: 50px;
+ padding-bottom: 50px; */
+}
+
+html {
+    font-size: 1em;
+}
+
+h1 {
+font-size: 2rem;
+}
+
+h2{
+    display: none;
+}
+
+.talk{
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    /* background-color: white; */
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+#menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+#menu1 a{
+    z-index: 2;
+    font-size: 13px;
+    padding: 5px;
+    /* padding: 5px; */
+    /* display: flex;
+    justify-content:space-around; */
+}
+
+#menu2 a{
+    z-index: 2;
+    font-size: 13px;
+    padding: 5px;
+    /* padding: 5px; */
+    /* display: flex;
+    justify-content:space-around; */
+}
+
+.getSlack, .try{
+    padding: 10px;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    color: #541554;
+    border-radius: 3px;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+
+@media (min-width: 900px) {
+h1 {
+    font-size: 4rem;
+}
+#leftTitle{
+    width: 40rem;
+}
+h2{
+    display: block;
+}
+}
+@media screen and (max-width: 30em) and (min-width: 0em){
+    #title{
+        text-align: center;
+    }
+    .menu{
+        flex-direction: column;
+    }
+}
+
